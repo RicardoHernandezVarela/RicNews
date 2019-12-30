@@ -1,5 +1,5 @@
 const apiKey = '04dcc8b6152b4bec839287d56e868bf3';
-const main = document.querySelector('main');
+const articles = document.querySelector('.articles');
 const sourceSelector = document.querySelector('#sourceSelector');
 const defaultSource = 'techcrunch';
 
@@ -28,7 +28,7 @@ async function updateNews(source = defaultSource) {
     const res = await fetch(`https://newsapi.org/v1/articles?source=${source}&apiKey=${apiKey}`)
     const json = await res.json();
 
-    main.innerHTML = json.articles.map(createArticle).join('\n');
+    articles.innerHTML = json.articles.map(createArticle).join('\n');
 }
 
 async function updateSources() {
