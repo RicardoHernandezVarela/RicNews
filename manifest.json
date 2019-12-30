@@ -1,8 +1,8 @@
 {
-  "name": "News",
+  "name": "RickNews",
   "short_name": "News",
-  "theme_color": "#05547b",
-  "background_color": "#05547b",
+  "theme_color": "#00b8d4",
+  "background_color": "#00b8d4",
   "display": "standalone",
   "start_url": ".",
   "icons": [
