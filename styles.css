@@ -129,6 +129,10 @@ VISTA PARA OTROS DISPOSITIVOS
   #sourceSelector {
     margin-left: 40%;
   }
+
+  .article img {
+    max-height: 300px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -139,6 +143,7 @@ VISTA PARA OTROS DISPOSITIVOS
 
   .article img {
     width: 70%;
+    max-height: 300px;
   }
 }
 
